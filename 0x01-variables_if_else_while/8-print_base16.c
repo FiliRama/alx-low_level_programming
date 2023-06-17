@@ -13,7 +13,7 @@ int num;
 num = 48;
 while (num < 58)
 putchar(num++);
-while(smallChar < 'g')
+while (smallChar < 'g')
 putchar(smallChar++);
 putchar('\n');
 return (0);

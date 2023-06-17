@@ -11,7 +11,7 @@ int num = 48;
 while (1)
 {
 putchar(num++);
-if(num == 58)
+if (num == 58)
 break;
 putchar(',');
 putchar(' ');
