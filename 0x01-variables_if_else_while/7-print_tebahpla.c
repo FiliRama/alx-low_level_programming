@@ -5,11 +5,11 @@
 *
 * Return: 0- Success
 */
-int main()
+int main(void)
 {
 int smallChar = 'z';
- while(smallChar > '`')
-     putchar(smallChar--);
- putchar('\n');
+while (smallChar > '`')
+putchar(smallChar--);
+putchar('\n');
 return (0);
 }

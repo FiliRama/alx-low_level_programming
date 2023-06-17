@@ -5,13 +5,13 @@
 *
 * Return: 0- Success
 */
-int main()
+int main(void)
 {
 int smallCharASCII = 'a';
 
-while(smallCharASCII <= 'z')
+while (smallCharASCII <= 'z')
 {
-if((smallCharASCII != 'q') && (smallCharASCII != 'e'))
+if ((smallCharASCII != 'q') && (smallCharASCII != 'e'))
 putchar(smallCharASCII);
 smallCharASCII++;
 }

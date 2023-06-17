@@ -5,18 +5,18 @@
 *
 * Return: 0- Success
 */
-int main()
+int main(void)
 {
 int smallCharASCII = 'a';
 int capitalCharASCII = 'A';
 
-while(smallCharASCII <= 'z')
+while (smallCharASCII <= 'z')
 {
 putchar(smallCharASCII);
 smallCharASCII++;
 }
 
-while(capitalCharASCII <= 'Z')
+while (capitalCharASCII <= 'Z')
 {
 putchar(capitalCharASCII++);
 }

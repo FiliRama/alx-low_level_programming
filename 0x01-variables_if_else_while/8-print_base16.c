@@ -5,15 +5,16 @@
 *
 * Return: 0- Success
 */
-int main()
+int main(void)
 {
 
-int smallChar= 'a';
-int num = 48;
- while(num < 58)
-     putchar(num++);
- while(smallChar < 'g')
-     putchar(smallChar++);
- putchar('\n');
+int smallChar = 'a';
+int num;
+num = 48;
+while (num < 58)
+putchar(num++);
+while(smallChar < 'g')
+putchar(smallChar++);
+putchar('\n');
 return (0);
 }

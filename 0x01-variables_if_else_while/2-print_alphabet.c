@@ -8,9 +8,10 @@
 int main(void)
 {
 int char_ASCII = 'a';
-while (char_ASCII <= 'z'){
-    putchar(char_ASCII);
-    char_ASCII++;
+while ( char_ASCII <= 'z')
+{
+putchar(char_ASCII);
+char_ASCII++;
 }
 putchar('\n');
 return (0);
