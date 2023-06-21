@@ -22,6 +22,6 @@ break;
 if (fibonacci[i] % 2 == 0)
 sum += fibonacci[i];
 }
-printf("%lu\n",sum);
+printf("%lu\n", sum);
 return (0);
 }

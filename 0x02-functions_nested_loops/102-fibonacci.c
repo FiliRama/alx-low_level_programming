@@ -42,4 +42,5 @@ fibonacci_left2 = fibonacci_left3;
 fibonacci_medium1 = fibonacci_medium2;
 fibonacci_medium2 = fibonacci_medium3;
 }
+return (0);
 }
