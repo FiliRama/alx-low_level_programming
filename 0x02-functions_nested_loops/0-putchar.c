@@ -1,8 +1,9 @@
 #include "main.h"
 /**
-* print_alphabet_x10 - print _putchar 
+* main - print _putchar 
+* Return: 0 for sucess
 */
-void print_alphabet_x10(void)
+int main(void)
 {
 _putchar('_');
 _putchar('p');
@@ -13,4 +14,5 @@ _putchar('h');
 _putchar('a');
 _putchar('r');
 _putchar('\n');
+return (0);
 }
