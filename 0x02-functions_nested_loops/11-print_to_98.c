@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include "main.h"
 /**
-*print_to_98 - Prints Integers from input to 
+*print_to_98 - Prints Integers from input to
 *@n: The number to begin counting at.
 */
 void print_to_98(int n)

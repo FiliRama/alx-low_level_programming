@@ -2,18 +2,16 @@
 /**
 * main - Prints the sum of even-valued Fibonacci sequence
 * terms not exceeding 4000000.
-**
-Return: Always 0.
+*Return: Always 0.
 */
 
 int main(void)
 {
 int i;
-unsigned long int fibonacci[50];
+unsigned long int sum, fibonacci[50];
 
 fibonacci[0] = 1;
 fibonacci[1] = 2;
-unsigned long int sum;
 sum = fibonacci[1];
 
 for (i = 2; i < 50; i++)

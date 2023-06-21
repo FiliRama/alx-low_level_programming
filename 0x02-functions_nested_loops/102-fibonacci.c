@@ -43,4 +43,3 @@ fibonacci_medium1 = fibonacci_medium2;
 fibonacci_medium2 = fibonacci_medium3;
 }
 }
-
