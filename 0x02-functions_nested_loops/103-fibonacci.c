@@ -13,7 +13,7 @@ unsigned long int fibonacci[50];
 
 fibonacci[0] = 1;
 fibonacci[1] = 2;
-unsigned int sum;
+unsigned long int sum;
 sum = fibonacci[1];
 
 for (i = 2; i < 50; i++)
