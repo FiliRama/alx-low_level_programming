@@ -2,9 +2,9 @@
 /**
 * main - print _putchar
 * 
-* Return: 0
+* 
 */
-int main(void)
+void print_alphabet_x10(void)
 {
 _putchar('_');
 _putchar('p');
@@ -14,6 +14,5 @@ _putchar('c');
 _putchar('h');
 _putchar('a');
 _putchar('r');
-_putchar('\n');
-return (0);
+putchar('\n');
 }

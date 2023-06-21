@@ -15,7 +15,7 @@ for (column = 1; column < 10; column++)
 _putchar(',');
 _putchar(' ');
 result = row * column;
-if (result > 9 )
+if (result > 9)
 {
 _putchar((result / 10) + '0');
 _putchar((result % 10) + '0');

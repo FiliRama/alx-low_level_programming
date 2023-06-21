@@ -20,7 +20,7 @@ unsigned long int fibonacci_right3;
 
 fibonacci_left1 = 1;
 fibonacci_left2 = 2;
-printf("%d, %d ", fibonacci_left1, fibonacci_left2);
+printf("%lu, %lu ", fibonacci_left1, fibonacci_left2);
 
 for (i = 2; i < 46; i++)
 {
