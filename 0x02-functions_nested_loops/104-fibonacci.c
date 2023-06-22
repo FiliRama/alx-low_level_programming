@@ -7,7 +7,7 @@ int main(void)
 {
 int i;
 unsigned long int fibonacci_left1 =1, fibonacci_left2 = 2; 
-unsigned long int fibonacci_left3, fibonacci_medium1, fibonacci_mediumm2;
+unsigned long int fibonacci_left3, fibonacci_medium1, fibonacci_medium2;
 unsigned long int fibonacci_medium3, fibonacci_right1, fibonacci_right2, fibonacci_right3;
 printf("%lu, %lu ", fibonacci_left1, fibonacci_left2);
 for (i = 2; i < 46; i++)
