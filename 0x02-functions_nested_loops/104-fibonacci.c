@@ -39,7 +39,7 @@ fibonacci_right1 = fibonacci_medium1 / 1000000000;
 fibonacci_right2 = fibonacci_medium2 / 1000000000;
 fibonacci_medium2 = fibonacci_medium2 % 1000000000;
 fibonacci_medium1 = fibonacci_medium1 % 1000000000;
-for (i = 89; i < 97; i++)
+for (i = 89; i < 98; i++)
 {
 fibonacci_left3 = fibonacci_left2 + fibonacci_left1 ;
 fibonacci_medium3 = fibonacci_medium2 + fibonacci_medium1;

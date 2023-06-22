@@ -27,7 +27,7 @@ fibonacci_medium1 = fibonacci_left1 / 1000000000;
 fibonacci_medium2 = fibonacci_left2 / 1000000000;
 fibonacci_left2 = fibonacci_left2 % 1000000000;
 fibonacci_left1 = fibonacci_left1 % 1000000000;
-for (i = 46; i < 49; i++)
+for (i = 46; i < 50; i++)
 {
 fibonacci_left3 = fibonacci_left2 + fibonacci_left1;
 fibonacci_medium3 = fibonacci_medium2 + fibonacci_medium1;
