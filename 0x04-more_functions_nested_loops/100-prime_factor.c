@@ -7,8 +7,7 @@
 
 int main(void)
 {
-	double number;
-	int i;
+	unsigned long int number, i;
 
 	number = 612852475143;
 	for (i = 2; i <= number; i++)
@@ -17,6 +16,6 @@ int main(void)
 			number /= i;
 			i--;
 		}
-	printf("%lli\n", i);
+	printf("%lu\n", i);
 	return (0);
 }
