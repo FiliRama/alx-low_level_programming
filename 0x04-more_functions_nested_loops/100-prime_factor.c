@@ -7,7 +7,8 @@
 
 int main(void)
 {
-	long long int number, i;
+	double number;
+	int i;
 
 	number = 612852475143;
 	for (i = 2; i <= number; i++)
