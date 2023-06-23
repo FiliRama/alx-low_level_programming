@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * print_diagonal - prints n diagonal line 
- * @n: number diagonal lines printed.
+ * print_diagonal - prints n diagonal line
+ * @n: number of diagonal line is printed
  */
 void print_diagonal(int n)
 {
@@ -11,7 +11,9 @@ void print_diagonal(int n)
 	for (i = 0; i < n; i++)
 	{
 		for (k = 0; k < i; k++)
+		{
 			_putchar(' ');
+		}
 		_putchar(92);
 		if (i < (n - 1))
 			_putchar('\n');
