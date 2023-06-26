@@ -1,5 +1,3 @@
-0-reset_to_98.c
-
 #include "main.h"
 /**
 *  reset_to_98 - uses a pointer update the value
