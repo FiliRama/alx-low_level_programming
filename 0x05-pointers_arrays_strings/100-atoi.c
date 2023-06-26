@@ -41,4 +41,6 @@ int _atoi(char *s)
 	if (numfound == 0)
 		return (0);
 
-	return (num) 
+	return (num);
+
+}	
