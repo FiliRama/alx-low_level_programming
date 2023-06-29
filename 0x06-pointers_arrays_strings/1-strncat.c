@@ -2,15 +2,15 @@
 
 /**
  * _strncat - to concatenate 2 strings
- * @dest: string 
- * @src: string 
+ * @dest: string
+ * @src: string
  * @n: limit (size) of src
- * Return: a concatenated string pointer 
+ * Return: a concatenated string pointer
  */
 char *_strncat(char *dest, char *src, int n)
 {
 	int i;
-        int j;
+	int j;
 
 	i = 0;
 

@@ -27,7 +27,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	{
 		sum = intnum1 + intnum2 + add;
 		add = (sum >= 10) ? sum / 10 : 0;
-     	if (sum > 0)
+		if (sum > 0)
 		*(r + max) = (sum % 10) + 48;
 		else
 			*(r + max) = '0';

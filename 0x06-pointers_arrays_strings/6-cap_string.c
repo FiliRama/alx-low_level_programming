@@ -2,7 +2,7 @@
 
 /**
  * cap_string - to capitalize the String
- * @s: input string 
+ * @s: input string
  * Return: Uppercase string pointer
  */
 char *cap_string(char *s)
