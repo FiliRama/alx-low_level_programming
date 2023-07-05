@@ -2,7 +2,7 @@
 
 /**
  * is_prime - checks whether it is prime number or not
- * @n: number to evaluate
+ * @num: number to evaluate
  * @j: for iteration
  * Return: 1 if n is prime, 0 if not
  */
@@ -24,5 +24,5 @@ int is_prime_number(int n)
 {
 	if (n <= 1)
 		return (0);
-	return (is_prime(--n, n));
+	return (is_prime(n - 1, n));
 }

@@ -13,16 +13,15 @@ int square_root_recursion(int i, int num)
 		return (-1);
 	if (i * i == num)
 		return (i);
-	return (square_root_recursion(++i,num));
+	return (square_root_recursion(++i, num));
 }
 
 /**
- * _square_root_recursion - to getsquare root of n
+ * _sqrt_recursion - to getsquare root of n
  * @n:input number
- *
  * Return: result of square root
  */
-int _square_root_recursion(int n)
+int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
