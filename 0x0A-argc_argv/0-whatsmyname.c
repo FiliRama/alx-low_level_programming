@@ -7,9 +7,9 @@
  * @argv: array of arguments (argument vector)
  * Return: Always 0 (Success)
  */
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	printf("%s\n", *argv);
-
-	return (0);
+(void) argc;
+printf("%s\n", argv[0]);
+return (0);
 }

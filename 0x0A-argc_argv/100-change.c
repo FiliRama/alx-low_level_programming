@@ -10,7 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, cents, num_of_coins;
+	int j, cents, num_of_coins;
 	int coins[] = {25, 10, 5, 2, 1};
 
 	if (argc != 2)
@@ -28,7 +28,7 @@ int main(int argc, char *argv[])
 	}
 	num_of_coins = 0;
 
-	for (i = 0; i < 5 && cents >= 0; i++)
+	for (j = 0; j < 5 && cents >= 0; j++)
 		while (cents >= coins[j])
 		{
 			num_of_coins++;
