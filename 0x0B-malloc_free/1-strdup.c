@@ -14,7 +14,9 @@ char *_strdup(char *str)
 	if (str == NULL)
 		return (NULL);
 
-	for (length =0; str[length] != '\0'; length++);
+	for (length = 0; str[length] != '\0'; length++)
+	{
+	}
 
 	duplicate = (char *)malloc((sizeof(char) * length) + 1);
 	if (duplicate == NULL)

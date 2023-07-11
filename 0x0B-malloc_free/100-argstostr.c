@@ -2,13 +2,13 @@
 #include <stdlib.h>
 
 /**
- * argstomerge_args - to concatenate  the arguments
+ * argstostr - to concatenate  the arguments
  * @ac: input argument count
  * @av: input argument vector
  *
  * Return: string pointer, or NULL if it fails
  */
-char *argstomerge_args(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
 	char *merge_args, *arg;
 	int i, j, k, len = 0;
