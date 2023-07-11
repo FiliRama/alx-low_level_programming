@@ -1,5 +1,6 @@
 #include "main.h"
 #include <stdlib.h>
+#include <stdio.h>
 /**
 * free_grid - to free a 2D grid
 * @grid: input grid to be free
