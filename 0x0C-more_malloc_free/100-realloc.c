@@ -11,37 +11,33 @@
 
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 {
-	unsigned int k;
-	char *reallocate;
+char *p1;
+char *p2;
+unsigned int j;
 
-
-	if (old_size == new_size)
-		return (ptr);
-
-	if (ptr == NULL)
-	{
-		reallocate = malloc(new_size);
-		if (reallocate == NULL)
-			return (NULL);
-		return (reallocate);
-	}
-
-	if (new_size == 0 && ptr != NULL)
-	{
-		free(ptr);
-		return (NULL);
-	}
-
-	if (reallocate == NULL)
-		return (NULL);
-
-	for (k < new_size && k < old_size)
-	{
-		reallocate[k] = ((char *)ptr)[k];
-		k++;
-	}
-
-	free(ptr);
-
-	return (reallocate);
+if (new_size == old_size)
+return (ptr);
+if (new_size == 0 && ptr)
+{
+free(ptr);
+return (NULL);
+}
+if (!ptr)
+return (malloc(new_size));
+p1 = malloc(new_size);
+if (!p1)
+return (NULL);
+p2 = ptr;
+if (new_size < old_size)
+{
+for (j = 0; j < new_size; j++)
+p1[j] = p2[j];
+}
+if (new_size > old_size)
+{
+for (j = 0; j < old_size; j++)
+p1[j] = p2[j];
+}
+free(ptr);
+return (p1);
 }
