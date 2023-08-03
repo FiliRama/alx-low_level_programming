@@ -6,7 +6,7 @@
  *
  * Return: unsigned int.
  */
-unsigned int binary_to_unsigned_intnt(const char *b)
+unsigned int binary_to_uint(const char *b)
 {
 	unsigned int unsigned_int;
 	int length, b2;
